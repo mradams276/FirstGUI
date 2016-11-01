@@ -2,6 +2,7 @@ package graphic.view;
 
 import javax.swing.JFrame;
 import graphic.controller.FirstGUIController;
+import java.awt.Dimension;
 
 public class FirstFrame extends JFrame
 {
@@ -12,4 +13,15 @@ public class FirstFrame extends JFrame
 		super();
 		this.baseController = baseController;
 	}
+
+
+private void setupFrame()
+	{
+		this.setVisible(true);
+		this.setSize(new Dimension(500, 500));
+	}	
+
+
 }
+
+
